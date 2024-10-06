@@ -1,0 +1,96 @@
+/* Edit Page Styles */
+body {
+    background-color: #1f2833; /* Darker background for edit page */
+    color: #ff4081; /* Cyan text */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.update-button {
+    background-color: #ff4081; /* Button color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center the button */
+    transition: background-color 0.3s; /* Animation */
+}
+
+.update-button:hover {
+    background-color: #66fcf1; /* Hover effect */
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #66fcf1; /* Link color */
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(18, 18, 18, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ff4081;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    color: #ff4081;
+    text-decoration: none;
+}
